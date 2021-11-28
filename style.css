@@ -600,7 +600,14 @@ border: none;
         /* line-height: none; */
         /* width: 80%; */
         /* height: 20px; */
-        margin-top: -30px;
+        /* margin-top: -30px; */
+        text-align: center;
+    }
+    .buutn-nimadir{
+        padding-left: 40px;
+    }
+    .footer-list{
+        padding-top: 10px;
     }
      /* .text-header-nav{
         width: 99%;
@@ -610,11 +617,55 @@ border: none;
     .nav-text-les{
         color:white;
     }
+    .kopi-les-text{
+        text-align: center;
+    }
     .img-logo{
         width: 60%;
     }
     .menu{
         width: 20%;
+    }
+    .calc{
+        padding-left: -130px;
+    }
+    .header-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       padding-right: 50px;
+    }
+    .col-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .col-big-text{
+        text-align: center;
+    }
+    .col-big-text-2{
+        text-align: center;
+    }
+    .col-les-text{
+        text-align: center;
+    }
+    .sectiuon-les-big-text{
+        text-align: center;
+    }
+    .img{
+        width: 150px;
+        margin-left: 20px;
+    }
+    .footer-box{
+        padding: 20px 0;
     }
 }
 @media (max-width:320px){
@@ -638,4 +689,8 @@ border: none;
         color:white;
         font-size: 14px;
     }
+}
+.menu{
+    width: 50px;
+    /* height: 30px; */
 }

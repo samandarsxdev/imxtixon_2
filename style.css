@@ -605,6 +605,10 @@ border: none;
     }
     .buutn-nimadir{
         padding-left: 40px;
+        /* width: 160px; */
+    }
+    .btn-plan{
+        width: 120px;
     }
     .footer-list{
         padding-top: 10px;
@@ -678,7 +682,7 @@ border: none;
         /* line-height: none; */
         /* width: 80%; */
         /* height: 20px; */
-        margin-top: -30px;
+        /* margin-top: -30px; */
     }
      /* .text-header-nav{
         width: 99%;
@@ -693,4 +697,54 @@ border: none;
 .menu{
     width: 50px;
     /* height: 30px; */
+}
+
+.facebook{
+    transition: 0.1s;
+    /* animation-name: bacFace; */
+    padding: 5px;
+    margin-top: -10px;
+}
+.facebook:hover{
+    background-color:red;
+    border-radius:50%;
+}
+.kopi-big-text{
+    cursor: pointer;
+}
+.kopi-big-text:hover{
+    color:#B990CC;
+    transition: 0.3s;
+}
+.kopi-les-text:hover{
+    color:#68AECC;
+    transition: 0.3s;
+}
+.text-hedaer{
+    cursor: pointer;
+}
+.text-hedaer:hover{
+    color:#CCB42C;
+    transition: 0.4s;
+}
+.nav-text-les{
+    cursor: pointer;
+}
+.nav-text-les:hover{
+    color:#905CCC;
+    transition: 0.4s;
+}
+.main-big-text{
+    cursor: pointer;
+}
+.main-big-text:hover{
+    color:#CC3061;
+    transition: 0.4s;
+}
+.main-les-text{
+    cursor: pointer;
+}
+.main-les-text:hover{
+    color:#6ECC4C;
+    transition: 0.4s;
 }

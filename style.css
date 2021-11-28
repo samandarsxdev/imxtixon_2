@@ -675,7 +675,28 @@ border: none;
         margin-left: 20px;
     }
     .footer-box{
-        padding: 20px 0;
+        padding: 20px 30px;
+        padding-right: 60px;
+        background-size:100% 300px;
+    }
+    .calc{
+        width: 250px;
+    }
+    .footer-list{
+        margin-top: 20px;
+    }
+    .nav-text-les{
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    .text-hedaer{
+        text-align: center;
+        line-height: 28px;
+        font-size: 28px;
+        margin-top: 10px;
+    }
+    .p-item{
+        margin-top: 20px;
     }
 }
 @media (max-width:320px){

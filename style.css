@@ -457,6 +457,9 @@ border: none;
   }
   
 }
+.footer-box{
+    background-size:100% 300px;
+}
 .menu{
     width: 80px;
     height: 50px;
@@ -534,6 +537,9 @@ border: none;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .footer-box{
+        background-size:100% 300px;
     }
 }
 @media (max-width:520px){
@@ -747,4 +753,18 @@ border: none;
 .main-les-text:hover{
     color:#6ECC4C;
     transition: 0.4s;
+}
+.col-big-text-2{
+    cursor:pointer;
+}
+.col-big-text-2:hover{
+    transition: 0.3s;
+    color:#CC9484;
+}
+.col-les-text{
+    cursor: pointer;
+}
+.col-les-text:hover{
+ color:#60CCA4;
+ transition: 0.3s;   
 }

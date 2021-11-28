@@ -172,7 +172,7 @@ color: #333D4B;
 .main-box{
     background-image:url("./images/Bitmap.png");
     background-repeat:no-repeat;
-    background-size: 1120px 577px;
+    background-size: 100% 577px;
    
 }
 .main-list{
@@ -346,12 +346,17 @@ border: none;
 .footer-box{
     background-image:url("./images/Mask.png");
     background-repeat:no-repeat;
-    /* background-size:1130px 100px; */
+    background-size:100% 300px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 100px;
   padding: 40px 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .footer-list{
     display: flex;
@@ -437,7 +442,7 @@ border: none;
     .col-big-text-2{
         width: 90%;
     }
-    .footer-box{
+    .footer{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -457,7 +462,7 @@ border: none;
   }
   
 }
-.footer-box{
+.footer{
     background-size:100% 300px;
 }
 .menu{
@@ -538,7 +543,7 @@ border: none;
         justify-content: center;
         align-items: center;
     }
-    .footer-box{
+    .footer{
         background-size:100% 300px;
     }
 }
@@ -582,7 +587,7 @@ border: none;
         flex-direction: column;
     }
     
-    .footer-box{
+    .footer{
         /* padding: -20px; */
         margin: 30px;
         /* height: 390px; */
@@ -639,13 +644,13 @@ border: none;
     .calc{
         padding-left: -130px;
     }
-    .header-box{
+    .main-box{
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-    .footer-box{
+    .footer{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -674,7 +679,7 @@ border: none;
         width: 150px;
         margin-left: 20px;
     }
-    .footer-box{
+    .footer{
         padding: 20px 30px;
         padding-right: 60px;
         background-size:100% 300px;
